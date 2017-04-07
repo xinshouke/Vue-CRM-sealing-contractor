@@ -3,7 +3,7 @@
     
         <input class="search" type="text" placeholder="Search Name or Phone ..." list="searchComplete" id="searchInput">
         <datalist id="searchComplete">
-            <option v-for="item in searchList" :value="item">
+            <option v-for="item in searchList" :value="item"></option>
         </datalist>
     
     <svg class="icon icon-search">
